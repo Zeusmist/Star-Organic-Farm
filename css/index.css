@@ -1,0 +1,456 @@
+body{margin: 0px; font-family: 'Roboto', sans-serif;background-color: ghostwhite; position: relative;}
+header
+{
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0.7, 0.7), rgba(0, 0, 0.7, 0.7)),url(../images/Home4.jpg);
+    width: 100%;
+    height: 400px;
+    margin-top: 40px;
+    background-size: contain;
+}
+#logo img
+{
+    position: absolute;
+    width: 150px;
+    margin-top: 20px;
+}
+#headerText
+{
+    position: relative;
+    text-align: center;
+    top: 170px;
+    font-size: 30px;
+    
+    line-height: 10px;
+    color: white;
+}
+nav
+{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    
+    background-color: #42a30a;
+    width: 100%;
+    text-align: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    z-index: 5;
+/*    height: 8%*/
+}
+nav p
+{
+    display: inline-block;
+    margin-right: 30px;
+}
+nav a
+{
+    text-decoration: none;
+    color: white;
+    padding: 2px;
+    border-radius: 3px
+}
+nav a:hover
+{
+    background-color: #124f05;
+}
+#about
+{
+    width: 80%;
+    margin-left: 10%;
+    position: relative;
+}
+#about img
+{
+/*    position: absolute;*/
+    width: 50%;
+    float: left;
+    border-radius: 5px;
+    margin-right: 5%
+}
+#about h1
+{
+    font-size: 30px;
+    text-align: right;
+    color: saddlebrown;
+}
+#about p
+{
+    
+/*    text-align:right;*/
+    line-height: 130%;
+    font-size: 15px
+}
+#why
+{
+    width: 80%;
+    margin-left: 10%;
+    position: relative;
+    height: 550px
+}
+#why > h1
+{
+    font-size: 30px;
+    text-align: center;
+    color: saddlebrown;
+}
+.whyCon
+{
+    width: 31%;
+    float: left;
+    background-color: whitesmoke;
+    
+    margin-right: 2.1%;
+    border: 1px solid gray;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0px 0px 5px;
+}
+#why img
+{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.whyCon > h1
+{
+    font-size: 20px;
+    line-height: 0px;
+    text-align: center;
+}
+.whyCon h4
+{
+    color: grey;
+    line-height: 0;
+    text-align: center;
+}
+.whyCon p
+{
+    padding: 0px 10px;
+}
+#rating
+{
+    position: relative;
+    width: 100%;
+    background-image: url(../images/ratingBackground.jpg);
+    height: 300px;
+    background-attachment: fixed;
+}
+#rating #forPC > div
+{
+    text-align: center;
+    color: white;
+    
+    width: 20%;
+    float: left;
+    margin-left: 2.5%;
+    margin-top: 70px;
+    font-size: 30px;
+    border: 2px solid white;
+    border-radius:50%;
+    padding: 50px 10px;
+}
+#rating #forMobile
+{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    display: none;
+}
+#rating #forMobile > div
+{
+    position: absolute;
+    margin-top: 25px
+}
+#clients
+{
+    position: relative;
+    background-image: url(../images/clientsBackground.jpg);
+    margin-top: -33px;
+    height: 400px;
+    background-attachment: fixed;
+}
+#clients h1
+{
+    text-align: center;
+    font-size: 40px;
+    color: sandybrown;
+    position: relative;
+    top: 20px;
+}
+#clients div
+{
+    float: left;
+    width: 40%;
+    margin: 0px 5%;
+    background-color: white;
+    text-align: center;
+    margin-top: 60px;
+}
+#clients img
+{
+    width: 15%;
+    border-radius: 50px;
+    margin-top: -8%;
+    margin-left: 50%;
+}
+#features
+{
+    position: relative;
+    height: 1020px
+}
+#features > h1
+{
+    width: 80%;
+    margin-left: 10%;
+    font-size: 40px;
+    color: saddlebrown;
+}
+#feature1
+{
+    width: 80%;
+    margin-left: 10%;
+    float: left;
+}
+#features h3
+{
+    font-size: 20px;
+    width: 25%;
+}
+#features p
+{
+    width: 59%
+}
+#feature1 img
+{
+    width: 40%;
+    float: right;
+    margin-top: -180px;
+    border-radius: 15px;
+}
+#features a
+{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: transparent;
+    font-weight: 600;
+    border: 1px solid black;
+}
+#features a:hover{background-color: sandybrown}
+#feature2
+{
+    width: 80%;
+    position: absolute;
+    top: 400px;
+    margin-left: 10%
+}
+#feature2 h3,#feature2 p,#feature2 a
+{
+    float: left;
+    margin-left: 10px
+}
+#feature2 img
+{
+    width: 40%;
+    float: left;
+    margin-top: 0px;
+    border-radius: 15px;
+}
+#feature3
+{
+    position: absolute;
+    top: 710px;
+    width: 80%;
+    margin-left: 10%;
+}
+#feature3 img
+{
+    float: right;
+    width: 40%;
+    margin-top: -120px;
+    border-radius: 15px;
+}
+footer
+{
+    position: absolute;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    height: 380px
+}
+footer > a
+{
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: gray;
+}
+footer a:hover{color: white;}
+footer p
+{
+    color: white;
+    word-spacing: 2px;
+}
+footer img
+{
+    width: 100px;
+    margin-top: 50px
+}
+#toTop{color: white; margin-top: 0px}
+@media (max-width:600px)
+{
+    header
+    {
+        height: 250px;
+    }
+    #logo{display: none;}
+    #headerText
+    {
+        top: 125px;
+        font-size: 12px;
+        line-height: 1;
+    }
+    #about img{display: none;}
+    #about h1{text-align: center}
+    #about p
+    {
+        font-size: 13px;
+        text-align: center;
+    }
+    #why
+    {
+        height: 100%;
+    }
+    #why > h1{font-size: 25px}
+    .whyCon
+    {
+        float: none;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .whyCon > h4
+    {
+        line-height: 1;
+    }
+    .whyCon > p
+    {
+        font-size: 14px;
+        margin-top: -5%;
+    }
+    #rating
+    {
+        height: 100px;
+    }
+    #rating #forPC{display: none}
+    #rating #forMobile{display: block}
+    #clients{margin-top: -24px; height: 510px}
+    #clients h1{font-size: 30px}
+    #clients div
+    {
+        float: none;
+        width: 100%;
+        margin: 0;
+        background-color: transparent;
+        text-align: left;
+        color: white;
+        border: 1px solid;
+    }
+    #clients img{margin: 0px; margin-top: 10px; width: 20%}
+    #features{height: 950px}
+    #features h1{font-size:25px}
+    #features img{display: none}
+    #features h3{width: 100%; text-align: center}
+    #features p{width: 100%;}
+/*    #feature2{margin-top: -30%}*/
+/*    #feature3{margin-top: -45%}*/
+}
+@media (min-width:601px)
+{
+    #headerText{line-height: 1}
+    #why{height: 650px}
+    .whyCon
+    {
+        margin-right: 1%;
+    }
+    .whyCon > h4
+    {
+        line-height: 1;
+    }
+    .whyCon p{font-size: 15px}
+    #rating #forPC > div
+    {
+        margin: 0%;
+        margin-top: 50px;
+        font-size: 19px;
+    }
+    #rating{height: 230px}
+    #features{height: 800px}
+    #features h1{font-size:25px}
+    #features img{display: none}
+    #features h3{width: 100%; text-align: center}
+    #features p{width: 100%;}
+    #feature2{margin-top: -15%}
+    #feature3{margin-top: -25%}
+}
+@media (min-width:1024px)
+{
+    #headerText{line-height: 10px}
+    #why{height: 600px}
+    .whyCon
+    {
+        margin-right: 1%;
+    }
+    .whyCon > h4
+    {
+        line-height: 1;
+    }
+    #rating #forPC > div
+    {
+        margin-left: 2.5%;
+        margin-top: 50px;
+        font-size: 19px;
+    }
+    #rating{height: 230px}
+    #features{height: 1020px}
+    #features h1{font-size:40px}
+    #features img{display: block}
+    #features h3{width: 25%; text-align: inherit}
+    #features p{width: 59%;}
+    #feature2{margin-top: 0}
+    #feature3{margin-top: 0}
+    #feature2 h3,#feature2 p,#feature2 a{margin-left: 5px}
+}
+@media (min-width: 1248px)
+{
+    #headerText{line-height: 10px}
+    #why{height: 600px}
+    .whyCon
+    {
+        margin-right: 1%;
+    }
+    .whyCon > h4
+    {
+        line-height: 1;
+    }
+    #rating #forPC > div
+    {
+        margin-left: 2.5%;
+        margin-top: 50px;
+        font-size: 19px;
+    }
+    #rating{height: 230px}
+    #features{height: 1020px}
+    #features h1{font-size:40px}
+    #features img{display: block}
+    #features h3{width: 25%; text-align: inherit}
+    #features p{width: 59%;}
+    #feature2{margin-top: 0}
+    #feature3{margin-top: 0}
+}
+
+@media (min-width: 1500px)
+{
+    #features{height: 1100px}
+}
